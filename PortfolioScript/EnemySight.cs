@@ -6,8 +6,8 @@ using UnityEngine;
 public class EnemySight : MonoBehaviour
 {
     // 이 스크립트에선 적의 시야와 어그로시트 관리에 대해 다룹니다.
-    // 적의 시야각과 시야거리 등을 설정할 수 있으며 범위 안의 타겟을 탐색하여 어그로시트에 추가합니다.
-    // 적은 타겟의 마지막 위치를 기억할 수 있습니다. 타겟과의 거리가 어느정도 떨어진 상태에서 장애물 등에 가려진다면 해당위치까지 추적하고, 포착에 실패하면 타겟을 로스트합니다.
+    // 적의 시야각과 시야 거리 등을 설정할 수 있으며 범위 안의 타겟을 탐색하여 어그로시트에 추가합니다.
+    // 적은 타겟의 마지막 위치를 기억할 수 있습니다. 타겟과의 거리가 어느 정도 떨어진 상태에서 장애물 등에 가려진다면 해당 위치까지 추적하고, 포착에 실패하면 타겟을 로스트합니다.
 
     #region 변수
     [SerializeField] private float _viewAnglel, _viewDistance, _viewHeight, _traceDistance, _confirmDistance, _attackAngle; //탐색 옵션

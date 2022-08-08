@@ -9,8 +9,8 @@ using Photon.Realtime;
 public class EnemyAction : MonoBehaviourPunCallbacks
 {
     // 이 스크립트에선 적의 AI에 대해 다룹니다.
-    // 적의 행동패턴은 일반, 전투로 나뉘며 현재 타겟의 유무와 타겟의 상태로 결정됩니다.
-    // 행동 패턴은 캐릭터의 상태, 타겟과의 거리,내부 쿨타임 등에 따라 달라집니다.
+    // 적의 행동 패턴은 일반, 전투로 나뉘며 현재 타겟의 유무와 타겟의 상태로 결정됩니다.
+    // 행동 패턴은 캐릭터의 상태, 타겟과의 거리, 내부 쿨타임 등에 따라 달라집니다.
 
     #region 변수
     private GameObject _charbody; //캐릭터 오브젝트

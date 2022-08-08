@@ -7,7 +7,7 @@ using Photon.Realtime;
 [RequireComponent(typeof(BodySearch))]
 public class RangeAction : MonoBehaviourPunCallbacks
 {
-    // 이 스트립트에선 총기를 사용한 액션과 애니메이션을 다룹니다.
+    // 이 스크립트에선 총기를 사용한 액션과 애니메이션을 다룹니다.
     // 총기마다 조준, 발사, 장전 등의 애니메이션 타입이 다르며 작성된 애니메이션을 입력된 값으로 사용할 수 있도록 합니다.
     // 또한, 조준 전과 후의 일부 애니메이션의 진행도를 이어받을 수 있도록 하여 2D 스프라이트 애니메이션으로도 자연스럽게 모션이 전환됩니다.
 
